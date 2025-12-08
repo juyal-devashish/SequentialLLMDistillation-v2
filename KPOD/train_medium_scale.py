@@ -25,9 +25,12 @@ def print_section(title):
 
 
 def main():
-    NUM_TRAIN = 500
-    NUM_VAL = 50
-    NUM_TEST = 100
+    # After loading dataset:
+    full_train, full_val, full_test = load_gsm8k()
+
+    NUM_TRAIN = len(full_train)  # 7473
+    NUM_VAL = len(full_val)      # 1319
+    NUM_TEST = len(full_test)    # 1319
     
     print("="*80)
     print("  KPOD Medium-Scale Training")
@@ -41,14 +44,14 @@ def main():
     
     # Config
     config = get_config()
-    config.model.student_model_name = "google/flan-t5-small" # DEBUG: Changed to small for testing
+    config.model.student_model_name = "Qwen/Qwen3-4B" # DEBUG: Changed to larger for final iteration
     config.data.dataset_name = "gsm8k"
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
     print(f"\n📍 Using device: {device}")
     
     # Check rationales exist
-    rationale_path = "./data/rationales/gsm8k_train_500_rationales.json"
+    rationale_path = "./data/rationales/gsm8k_full_train_rationales.json"
     if not os.path.exists(rationale_path):
         print(f"\n❌ Rationales not found at {rationale_path}")
         print("Please run: python generate_500_rationales.py")
@@ -62,26 +65,28 @@ def main():
     full_train, full_val, full_test = load_gsm8k()
     rationales = load_rationales(rationale_path)
     
-    # Create datasets
+    # Rationales only apply to TRAIN split
     train_dataset = ReasoningDataset(
-        questions=[full_train[i]['question'] for i in range(NUM_TRAIN)],
-        answers=[full_train[i]['answer'] for i in range(NUM_TRAIN)],
-        rationales=[rationales[i]['rationale'] for i in range(NUM_TRAIN)],
+        questions=[ex['question'] for ex in full_train],
+        answers=[ex['answer'] for ex in full_train],
+        rationales=[r['rationale'] for r in rationales],   # all 7473
         split='train'
     )
-    
+
     val_dataset = ReasoningDataset(
-    questions=[full_train[i]['question'] for i in range(NUM_VAL)],
-    answers=[full_train[i]['answer'] for i in range(NUM_VAL)],
-    rationales=[rationales[i]['rationale'] for i in range(NUM_VAL)],  # USE rationales, not None!
-    split='val')
-    
+        questions=[ex['question'] for ex in full_val],
+        answers=[ex['answer'] for ex in full_val],
+        rationales=[None] * NUM_VAL,   # no rationales for validation
+        split='val'
+    )
+
     test_dataset = ReasoningDataset(
-        questions=[full_test[i]['question'] for i in range(NUM_TEST)],
-        answers=[full_test[i]['answer'] for i in range(NUM_TEST)],
+        questions=[ex['question'] for ex in full_test],
+        answers=[ex['answer'] for ex in full_test],
         rationales=[None] * NUM_TEST,
         split='test'
     )
+
     
     print(f"✓ Train: {len(train_dataset)}, Val: {len(val_dataset)}, Test: {len(test_dataset)}")
     

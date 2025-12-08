@@ -10,7 +10,6 @@ from tqdm.asyncio import tqdm as async_tqdm
 import json
 import sys
 
-
 class FastRationaleGenerator:
     """Fast parallel rationale generation"""
     

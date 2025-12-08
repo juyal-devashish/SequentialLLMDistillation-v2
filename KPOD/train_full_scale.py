@@ -36,19 +36,36 @@ def main():
     print("  Estimated Time: 20-24 hours")
     print("="*80)
     
-    input("\nPress Enter to start full training (or Ctrl+C to cancel)...")
-    
     # Configuration
     config = get_config()
-    config.model.student_model_name = "google/flan-t5-large"
+
+    # Use Qwen 4B as the student
+    config.model.student_model_name = "Qwen/Qwen2.5-4B"   # or "Qwen/Qwen1.5-4B"
+
+    # Dataset
     config.data.dataset_name = "gsm8k"
-    config.training.batch_size = 4
-    config.training.lr_flan = 3e-5  # Lower LR for stability
-    config.training.max_grad_norm = 1.0
-    config.training.warmup_ratio = 0.1
+
+    # Training hyperparameters for 4B model
+    config.training.batch_size = 1          # Qwen-4B is much larger than Flan-T5
+    config.training.gradient_accumulation = 16   # Effective batch size = 8
+    config.training.lr_flan = 1e-5          # Much lower LR for 4B stability
+    config.training.max_grad_norm = 0.8     # Slightly lower for large LMs
+    config.training.warmup_ratio = 0.05     # Large LMs need smaller warmup
+    config.training.weight_decay = 0.1      # Standard for transformer LMs
+    config.training.num_epochs = 100        # Good default
+    config.training.early_stopping_patience = 5  # custom field for early stopping
+
+    # Mixed precision
+    config.training.fp16 = False
+    config.training.bf16 = True             # Qwen models perform best in BF16
+
+    # Optional but recommended
+    config.training.lr_scheduler = "cosine"
+    config.training.logging_steps = 20
+
     
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    model_id = "flan-t5-large-full"
+    model_id = "qwen2.5-4b-full"
     
     print(f"\n📍 Configuration:")
     print(f"   Device: {device}")
@@ -107,21 +124,21 @@ def main():
         split='train'
     )
     
-    # Use first 500 validation samples (we have rationales for them)
     val_dataset = ReasoningDataset(
-        questions=[full_train[i]['question'] for i in range(min(500, NUM_VAL))],
-        answers=[full_train[i]['answer'] for i in range(min(500, NUM_VAL))],
-        rationales=[rationales[i]['rationale'] for i in range(min(500, NUM_VAL))],
+        questions=[full_val[i]['question'] for i in range(min(500, NUM_VAL))],
+        answers=[full_val[i]['answer'] for i in range(min(500, NUM_VAL))],
+        rationales=[None] * min(500, NUM_VAL),
         split='val'
     )
-    
+
+    test_len = min(NUM_TEST, len(full_test))
     test_dataset = ReasoningDataset(
-        questions=[full_test[i]['question'] for i in range(NUM_TEST)],
-        answers=[full_test[i]['answer'] for i in range(NUM_TEST)],
-        rationales=[None] * NUM_TEST,
+        questions=[full_test[i]['question'] for i in range(test_len)],
+        answers=[full_test[i]['answer'] for i in range(test_len)],
+        rationales=[None] * test_len,
         split='test'
     )
-    
+
     print(f"\n✓ Datasets created:")
     print(f"   Train: {len(train_dataset)}")
     print(f"   Val: {len(val_dataset)}")
@@ -171,7 +188,7 @@ def main():
             device=device
         )
         
-        trainer.train(num_epochs=5)
+        trainer.train(num_epochs=8)
         
         # Save
         torch.save({
@@ -181,18 +198,22 @@ def main():
         
         print(f"✓ Token weighting saved to {token_weights_path}")
     
-    # ========================================================================
+   # ========================================================================
     # STEP 4: Calculate Step Difficulties
     # ========================================================================
     difficulties_path = f"./data/difficulties/gsm8k_full_difficulties_{model_id}.json"
-    
-    if os.path.exists(difficulties_path):
+    token_weights_cache_path = f"./data/token_weights/gsm8k_full_token_weights_{model_id}.pt"
+    os.makedirs(os.path.dirname(token_weights_cache_path), exist_ok=True)
+
+    if os.path.exists(difficulties_path) and os.path.exists(token_weights_cache_path):
         print_section("STEP 4: Step Difficulties (Loading Existing)")
         difficulties = load_difficulties(difficulties_path)
+        token_weights = torch.load(token_weights_cache_path)
         print(f"✓ Loaded difficulties for {len(difficulties)} samples")
+        print(f"✓ Loaded token weights for {len(token_weights)} samples")
     else:
-        print_section("STEP 4: Calculating Step Difficulties")
-        print("Estimated time: 30-45 minutes")
+        print_section("STEP 4: Calculating Step Difficulties with Token Weights")
+        print("Estimated time: 30-45 minutes (depending on GPU)")
         
         model = StudentModel(
             model_name=config.model.student_model_name,
@@ -200,8 +221,29 @@ def main():
             device=device
         )
         
-        token_weights = {idx: torch.ones(50) for idx in range(len(train_dataset))}
+        token_weights = {}
+        batch_size = 16  # adjust depending on GPU memory
+        student_model_device = device
+        token_weighting_module.to(device)
+        token_weighting_module.eval()
         
+        with torch.no_grad():
+            for start_idx in range(0, len(train_dataset), batch_size):
+                end_idx = min(start_idx + batch_size, len(train_dataset))
+                batch_questions = [train_dataset[i]['question'] for i in range(start_idx, end_idx)]
+                batch_answers = [train_dataset[i]['answer'] for i in range(start_idx, end_idx)]
+                
+                # Get token weights (returns list of tensors per example)
+                batch_weights = token_weighting_module(batch_questions, batch_answers)
+                
+                for i, w in enumerate(batch_weights):
+                    token_weights[start_idx + i] = w.cpu()  # move to CPU to save memory
+        
+        # Save token weights for future runs
+        torch.save(token_weights, token_weights_cache_path)
+        print(f"✓ Token weights saved to {token_weights_cache_path}")
+        
+        # Now calculate step difficulties using real token weights
         calculator = StepDifficultyCalculator(
             student_model=model,
             token_weights=token_weights,
@@ -215,7 +257,7 @@ def main():
         
         save_difficulties(difficulties, difficulties_path)
         print(f"✓ Difficulties saved to {difficulties_path}")
-    
+
     # ========================================================================
     # STEP 5: Cluster Questions
     # ========================================================================
