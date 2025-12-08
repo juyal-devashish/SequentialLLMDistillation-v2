@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?",
+    "rationale": "Step 1: Calculate how many clips Natalia sold in May.\nIn April, Natalia sold 48 clips.\nIn May, she sold half as many clips as in April, which is 48 / 2 = 24 clips.\n\nStep 2: Calculate the total number of clips Natalia sold in April and May.\nTotal clips sold = 48 (April) + 24 (May) = 72 clips.\n\nTherefore, Natalia sold a total of 72 clips in April and May.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?",
+    "rationale": "Step 1: First, we need to convert 50 minutes to hours. Since there are 60 minutes in an hour, we can divide 50 minutes by 60 to get the equivalent hours.  \n50 minutes \u00f7 60 = 0.83 hours  \nSo, Weng did 0.83 hours of babysitting.  \n\nStep 2: Next, we can calculate how much Weng earned by multiplying the hours she worked by her hourly rate.  \nEarnings = 0.83 hours * $12/hour  \nEarnings = $9.96  \n\nTherefore, Weng earned $9.96 for babysitting for 50 minutes yesterday.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?",
+    "rationale": "Step 1: Calculate how much money Betty has saved so far.\n- The cost of the wallet is $100.\n- Betty has half of the money she needs, which is $100 / 2 = $50.\n\nStep 2: Calculate how much money Betty's grandparents gave her.\n- Betty's parents gave her $15.\n- Betty's grandparents gave her twice as much as her parents, so that's 2 * $15 = $30.\n\nStep 3: Add up all the money Betty has saved.\n- Betty has $50 + $15 + $30 = $95 saved.\n\nStep 4: Calculate how much more money Betty needs to buy the wallet.\n- The cost of the wallet is $100.\n- Betty has saved $95, so she still needs $100 - $95 = $5 more to buy the wallet.\n\nTherefore, Betty needs $5 more to buy the wallet.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?",
+    "rationale": "1. Julie read 12 pages yesterday.\n2. Today, she read twice as many pages as yesterday, which is 2 * 12 = 24 pages.\n3. So far, Julie has read a total of 12 + 24 = 36 pages.\n4. She has 120 - 36 = 84 pages remaining to read.\n5. Tomorrow, she wants to read half of the remaining pages, which is 84 / 2 = 42 pages. \n6. Therefore, Julie should read 42 pages tomorrow.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?",
+    "rationale": "Step 1: Calculate how many letters James writes in a week.\nJames writes 2 letters to 2 different friends twice a week, so he writes 2 * 2 = 4 letters per week.\n\nStep 2: Calculate how many pages James writes in a week.\nSince each letter is 3 pages long, James writes 4 * 3 = 12 pages per week.\n\nStep 3: Calculate how many pages James writes in a year.\nThere are 52 weeks in a year, so James writes 12 * 52 = 624 pages in a year.\n\nTherefore, James writes 624 pages in a year.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and there are 80% more of those in purple. There are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?",
+    "rationale": "Step 1: Let's start by calculating how many purple flowers Mark has in his garden. We know that there are 80% more purple flowers than yellow flowers. Since Mark has 10 yellow flowers, we can calculate 80% of 10 to find out how many more purple flowers there are. \n\n80% of 10 = 0.8 * 10 = 8\n\nSo, Mark has 10 yellow flowers and 8 more purple flowers, totaling:\n\n10 yellow flowers + 8 purple flowers = 18 flowers\n\nMark has 18 purple flowers.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Albert is wondering how much pizza he can eat in one day. He buys 2 large pizzas and 2 small pizzas. A large pizza has 16 slices and a small pizza has 8 slices. If he eats it all, how many pieces does he eat that day?",
+    "rationale": "Step 1: Calculate the total number of slices in the large pizzas.\n2 large pizzas * 16 slices per large pizza = 32 slices from the large pizzas. \n\nStep 2: Calculate the total number of slices in the small pizzas.\n2 small pizzas * 8 slices per small pizza = 16 slices from the small pizzas.\n\nStep 3: Add the slices from the large and small pizzas to find the total number of slices Albert eats.\n32 slices from large pizzas + 16 slices from small pizzas = 48 total slices eaten.\n\nTherefore, Albert eats 48 slices of pizza that day.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he added enough gummy worms to double the weight once again.  What was the final weight of the box of goodies, in pounds?",
+    "rationale": "Step 1: Ken placed the box on a scale and added enough jelly beans to bring the weight to 2 pounds. Let's denote the weight of the jelly beans as x pounds. So, the weight of the box with the jelly beans is 2 pounds.\n\nStep 2: Ken added enough brownies to cause the weight to triple. This means the weight of the brownies is 3 times the weight of the box with the jelly beans. Therefore, the weight of the brownies is 3 * 2 = 6 pounds.\n\nStep 3: Ken added another 2 pounds of jelly beans to the box. So, the total weight of the jelly beans in the box is x + 2 pounds.\n\nStep 4: Finally, Ken added enough gummy worms to double the weight once again. This means the weight of the gummy worms is 2 times the total weight of the box with the jelly beans, brownies, and additional jelly beans. Therefore, the weight of the gummy worms is 2 * (2 + x + 6 + 2) = 2 * (x + 10) = 2x + 20 pounds.\n\nStep 5: The final weight of the box of goodies is the sum of the weights of the jelly beans, brownies, and gummy worms. Thus, the final weight is x + 6 + x + 10 + 20 = 2x + 36 pounds.\n\nTherefore, the final weight of the box of goodies is 2x + 36 pounds.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Alexis is applying for a new job and bought a new set of business clothes to wear to the interview. She went to a department store with a budget of $200 and spent $30 on a button-up shirt, $46 on suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. She has $16 left from her budget. How much did Alexis pay for the shoes?",
+    "rationale": "Step 1: Calculate the total amount spent on the shirt, pants, coat, socks, and belt.\n$30 (shirt) + $46 (pants) + $38 (coat) + $11 (socks) + $18 (belt) = $143\n\nStep 2: Calculate the remaining budget after purchasing these items.\n$200 (budget) - $143 (total spent) = $57\n\nStep 3: Subtract the remaining budget from the amount Alexis has left.\n$57 (remaining budget) - $16 (leftover) = $41\n\nTherefore, Alexis paid $41 for the shoes.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Tina makes $18.00 an hour.  If she works more than 8 hours per shift, she is eligible for overtime, which is paid by your hourly wage + 1/2 your hourly wage.  If she works 10 hours every day for 5 days, how much money does she make?",
+    "rationale": "Step 1: Calculate Tina's regular daily earnings.\nTina works 8 hours at her regular rate of $18 per hour.\nRegular daily earnings = $18/hour * 8 hours = $144\n\nStep 2: Calculate Tina's overtime earnings for each day.\nFor each hour of overtime, Tina is paid her hourly wage plus half of her hourly wage.\nOvertime rate = $18/hour + 0.5 * $18/hour = $18/hour + $9/hour = $27/hour\n\nStep 3: Calculate Tina's total earnings for a 10-hour shift.\nFor the first 8 hours, Tina earns her regular rate: $18/hour * 8 hours = $144\nFor the remaining 2 hours of overtime, Tina earns the overtime rate: $27/hour * 2 hours = $54\n\nStep 4: Calculate Tina's total earnings for 5 days of work.\nTotal daily earnings = Regular daily earnings + Overtime earnings\nTotal daily earnings = $144 + $54 = $198\nTotal earnings for 5 days = 5 days * $198/day = $990\n\nTherefore, Tina makes $990 in total for working 10 hours every day for 5 days.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "A deep-sea monster rises from the waters once every hundred years to feast on a ship and sate its hunger. Over three hundred years, it has consumed 847 people. Ships have been built larger over time, so each new ship has twice as many people as the last ship. How many people were on the ship the monster ate in the first hundred years?",
+    "rationale": "Step 1: Let's denote the number of people on the first ship as x. Since each new ship has twice as many people as the last ship, the number of people on the second ship would be 2x, the third ship would have 4x, and so on. \n\nStep 2: The total number of people eaten by the monster over the three hundred years is 847. So, we can set up an equation based on the sum of the geometric progression:\n\nx + 2x + 4x + ... = 847\n\nStep 3: To find the sum of the geometric progression, we use the formula for the sum of the first n terms of a geometric progression:\n\nS_n = a(1 - r^n) / (1 - r)\n\nwhere:\nS_n is the sum of the first n terms,\na is the first term,\nr is the common ratio,\nn is the number of terms.\n\nStep 4: In our case, the first term a is x, the common ratio r is 2, and the sum S_n is 847. We need to determine the number of terms n.\n\nStep 5: Let's solve for n using the formula:\n\n847 = x(1 - 2^n) / (1 - 2)\n\nStep 6: Simplify the equation:\n\n847 = x(1 - 2^n) / -1\n\n-847 = x(1 - 2^n)\n\nStep 7: Since x is the number of people on the first ship, it must be a whole number. We can start by testing some values for x to find the correct one that satisfies the equation. Let's start with x = 1.\n\n-847 = 1(1 - 2^n)\n-847 = 1 - 2^n\n-848 = -2^n\n2^n = 848\n\nStep 8: We can see that x = 1 does not satisfy the equation. Let's try x = 2.\n\n-847 = 2(1 - 2^n)\n-847 = 2 - 2^n\n-849 = -2^n\n2^n = 849\n\nStep 9: It seems x = 2 is not the correct value either. Let's continue testing different values for x until we find the one that satisfies the equation.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?",
+    "rationale": "Step 1: Calculate Tobias' total savings from his allowance over three months.\nTotal allowance = $5/month * 3 months = $15\n\nStep 2: Calculate Tobias' earnings from mowing lawns.\nEarnings from mowing 4 lawns = $15/lawn * 4 lawns = $60\n\nStep 3: Calculate Tobias' total savings and earnings before buying the shoes.\nTotal savings and earnings = Total allowance + Earnings from mowing lawns = $15 + $60 = $75\n\nStep 4: Subtract the cost of the shoes from Tobias' total savings and earnings to find out how much he had left.\nTotal savings and earnings - Cost of shoes = $75 - $95 = -$20\n\nStep 5: Add the $15 change Tobias has after buying the shoes to the deficit to find out how much he had left after buying the shoes.\nAmount left after buying shoes = -$20 + $15 = -$5\n\nStep 6: Calculate the number of driveways Tobias shoveled to earn money to cover the remaining amount.\nEarnings from shoveling driveways = Amount left after buying shoes = -$5\nEarnings per driveway = $7/driveway\n\nNumber of driveways shoveled = Earnings from shoveling driveways / Earnings per driveway = -$5 / $7 \u2248 -0.714\nSince Tobias cannot shovel a fraction of a driveway, he did not shovel any driveways to earn money to cover the remaining amount.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Randy has 60 mango trees on his farm. He also has 5 less than half as many coconut trees as mango trees. How many trees does Randy have in all on his farm?",
+    "rationale": "Step 1: First, we need to find half of the number of mango trees.  \nHalf of 60 mango trees is 60 / 2 = 30 trees.  \n\nStep 2: Next, we need to find 5 less than half of the mango trees.  \n5 less than 30 trees is 30 - 5 = 25 coconut trees.  \n\nStep 3: Finally, we can calculate the total number of trees on Randy's farm.  \nTotal trees = Mango trees + Coconut trees  \nTotal trees = 60 mango trees + 25 coconut trees  \nTotal trees = 85 trees  \n\nTherefore, Randy has a total of 85 trees on his farm.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Jasper will serve charcuterie at his dinner party. He buys 2 pounds of cheddar cheese for $10, a pound of cream cheese that cost half the price of the cheddar cheese, and a pack of cold cuts that cost twice the price of the cheddar cheese. How much does he spend on the ingredients?",
+    "rationale": "Step 1: Determine the cost of the cream cheese.\nSince the cream cheese cost half the price of the cheddar cheese, it is $10 / 2 = $5.\n\nStep 2: Determine the cost of the pack of cold cuts.\nThe pack of cold cuts cost twice the price of the cheddar cheese, so it is 2 * $10 = $20.\n\nStep 3: Calculate the total cost of the ingredients.\nJasper spent $10 on cheddar cheese, $5 on cream cheese, and $20 on cold cuts.\nTherefore, the total amount spent on the ingredients is $10 + $5 + $20 = $35. \n\nJasper spends $35 on the ingredients for the charcuterie.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Joy can read 8 pages of a book in 20 minutes. How many hours will it take her to read 120 pages?",
+    "rationale": "Step 1: First, we need to find out how many pages Joy can read in 1 minute.\nTo do this, we divide the number of pages she can read in 20 minutes by 20.\n8 pages / 20 minutes = 0.4 pages per minute.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "James creates a media empire.  He creates a movie for $2000.  Each DVD cost $6 to make.  He sells it for 2.5 times that much.  He sells 500 movies a day for 5 days a week.  How much profit does he make in 20 weeks?",
+    "rationale": "Step 1: Calculate the total cost of creating the movie.\nJames creates a movie for $2000.\n\nTotal cost = $2000\n\nStep 2: Calculate the cost of producing one DVD.\nEach DVD costs $6 to make.\n\nDVD cost = $6\n\nStep 3: Calculate the selling price of one DVD.\nHe sells each DVD for 2.5 times the production cost.\n\nSelling price = 2.5 * $6 = $15\n\nStep 4: Calculate the profit per DVD.\nProfit per DVD = Selling price - Production cost\nProfit per DVD = $15 - $6\nProfit per DVD = $9\n\nStep 5: Calculate the total profit from selling DVDs in one day.\nJames sells 500 DVDs in a day.\n\nTotal profit per day = Profit per DVD * Number of DVDs sold\nTotal profit per day = $9 * 500\nTotal profit per day = $4500\n\nStep 6: Calculate the total profit per week.\nJames sells DVDs for 5 days a week.\n\nTotal profit per week = Total profit per day * Number of days in a week\nTotal profit per week = $4500 * 5\nTotal profit per week = $22500\n\nStep 7: Calculate the total profit per 20 weeks.\nJames sells DVDs for 20 weeks.\n\nTotal profit for 20 weeks = Total profit per week * Number of weeks\nTotal profit for 20 weeks = $22500 * 20\nTotal profit for 20 weeks = $450000\n\nStep 8: Calculate the total profit including the movie creation cost.\nTotal profit including movie creation cost = Total profit for 20 weeks - Movie creation cost\nTotal profit including movie creation cost = $450000 - $2000\nTotal profit including movie creation cost = $448000\n\nTherefore, James makes a profit of $448,000 in 20 weeks.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "The profit from a business transaction is shared among 2 business partners, Mike and Johnson in the ratio 2:5 respectively. If Johnson got $2500, how much will Mike have after spending some of his share on a shirt that costs $200?",
+    "rationale": "Step 1: Calculate the total ratio parts.\nTotal parts = 2 + 5 = 7.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "In a truck, there are 26 pink hard hats, 15 green hard hats, and 24 yellow hard hats.  If Carl takes away 4 pink hard hats, and John takes away 6 pink hard hats and twice as many green hard hats as the number of pink hard hats that he removed, then calculate the total number of hard hats that remained in the truck.",
+    "rationale": "Step 1: Initially, there are 26 pink hard hats, 15 green hard hats, and 24 yellow hard hats in the truck.\nStep 2: Carl takes away 4 pink hard hats, so the number of pink hard hats remaining is 26 - 4 = 22.\nStep 3: John takes away 6 pink hard hats. So, the number of pink hard hats remaining is 22 - 6 = 16.\nStep 4: John also takes twice as many green hard hats as the number of pink hard hats he removed. Therefore, he takes 2 * 6 = 12 green hard hats.\nStep 5: The number of green hard hats remaining is 15 - 12 = 3.\nStep 6: The total number of hard hats remaining in the truck is 16 (pink) + 3 (green) + 24 (yellow) = 43 hard hats.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "It takes Roque two hours to walk to work and one hour to ride his bike to work. Roque walks to and from work three times a week and rides his bike to and from work twice a week. How many hours in total does he take to get to and from work a week with walking and biking?",
+    "rationale": "Step 1: Calculate the total time Roque spends walking to and from work in a week.\nWalking time per trip = 2 hours\nNumber of walking trips per week = 3 trips\nTotal walking time per week = 2 hours/trip * 3 trips = 6 hours\n\nStep 2: Calculate the total time Roque spends riding his bike to and from work in a week.\nBiking time per trip = 1 hour\nNumber of biking trips per week = 2 trips\nTotal biking time per week = 1 hour/trip * 2 trips = 2 hours\n\nStep 3: Add the total walking time and total biking time to find the total time Roque takes to get to and from work in a week.\nTotal time per week = Total walking time + Total biking time\nTotal time per week = 6 hours + 2 hours = 8 hours\n\nTherefore, Roque takes a total of 8 hours to get to and from work in a week with walking and biking.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Tim rides his bike back and forth to work for each of his 5 workdays.  His work is 20 miles away.  He also goes for a weekend bike ride of 200 miles.    If he can bike at 25 mph how much time does he spend biking a week?",
+    "rationale": "Step 1: Calculate the total distance Tim bikes during the week for commuting to work. Since Tim rides to work for 5 days and the work is 20 miles away, he bikes 5 days * 20 miles/day = 100 miles during the workweek. \n\nStep 2: Add the distance Tim bikes during the weekend bike ride. Tim goes for a weekend bike ride of 200 miles.\n\nStep 3: Add the distances together to find the total distance Tim bikes in a week. Total distance = 100 miles (workweek) + 200 miles (weekend) = 300 miles.\n\nStep 4: Calculate the time Tim spends biking in a week. Time = Distance / Speed = 300 miles / 25 mph = 12 hours.\n\nTherefore, Tim spends 12 hours biking in a week.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Bella bought stamps at the post office. Some of the stamps had a snowflake design, some had a truck design, and some had a rose design. Bella bought 11 snowflake stamps. She bought 9 more truck stamps than snowflake stamps, and 13 fewer rose stamps than truck stamps. How many stamps did Bella buy in all?",
+    "rationale": "Step 1: Let's denote the number of snowflake stamps as S, the number of truck stamps as T, and the number of rose stamps as R. \n\nGiven that Bella bought 11 snowflake stamps, we have S = 11. \n\nStep 2: We are also given that Bella bought 9 more truck stamps than snowflake stamps, which can be written as T = S + 9.\n\nSubstitute the value of S from Step 1 into this equation to find the number of truck stamps.\n\nT = 11 + 9\nT = 20\n\nSo, Bella bought 20 truck stamps.\n\nStep 3: We are further given that Bella bought 13 fewer rose stamps than truck stamps, which can be written as R = T - 13.\n\nSubstitute the value of T from Step 2 into this equation to find the number of rose stamps.\n\nR = 20 - 13\nR = 7\n\nSo, Bella bought 7 rose stamps.\n\nStep 4: To find the total number of stamps Bella bought in all, we add up the number of snowflake, truck, and rose stamps.\n\nTotal stamps = S + T + R\nTotal stamps = 11 + 20 + 7\nTotal stamps = 38\n\nTherefore, Bella bought 38 stamps in all.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Each bird eats 12 beetles per day, each snake eats 3 birds per day, and each jaguar eats 5 snakes per day. If there are 6 jaguars in a forest, how many beetles are eaten each day?",
+    "rationale": "Step 1: Start by finding out how many snakes are eaten each day by all the jaguars in the forest.  \nEach jaguar eats 5 snakes per day.  \nSo, 6 jaguars will eat 6 * 5 = 30 snakes per day.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Samantha\u2019s last name has three fewer letters than Bobbie\u2019s last name. If Bobbie took two letters off her last name, she would have a last name twice the length of Jamie\u2019s. Jamie\u2019s full name is Jamie Grey. How many letters are in Samantha\u2019s last name?",
+    "rationale": "Step 1: Let's represent the number of letters in Bobbie's last name as \\(x\\).  \nThis means that the number of letters in Samantha's last name is \\(x - 3\\).  \nAfter Bobbie takes two letters off her last name, she would have \\(x - 2\\) letters.  \n\nStep 2: According to the problem, Bobbie's new last name is twice the length of Jamie's last name.  \nJamie's last name is \"Grey\", which has 4 letters.  \nThis means that \\(x - 2 = 2 \\times 4\\).  \n\nStep 3: Solve the equation from step 2.  \n\\(x - 2 = 8\\)  \n\\(x = 8 + 2\\)  \n\\(x = 10\\)\n\nStep 4: Calculate the number of letters in Samantha's last name.  \n\\(x - 3 = 10 - 3\\)  \n\\(x - 3 = 7\\)\n\nTherefore, Samantha's last name has 7 letters.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Ann's favorite store was having a summer clearance. For $75 she bought 5 pairs of shorts for $7 each and 2 pairs of shoes for $10 each. She also bought 4 tops, all at the same price. How much did each top cost?",
+    "rationale": "Step 1: Ann bought 5 pairs of shorts for $7 each, so the total cost of the shorts is 5 * $7 = $35. Next, she bought 2 pairs of shoes for $10 each, so the total cost of the shoes is 2 * $10 = $20. \n\nTherefore, the total cost of the shorts and shoes is $35 + $20 = $55.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Mary does her grocery shopping on Saturday. She does her shopping only at a specific store where she is allowed a credit of $100, which must be paid in full before her next shopping trip. That week she spent the full credit limit and paid $15 of it on Tuesday and $23 of it on Thursday. How much credit will Mary need to pay before her next shopping trip?",
+    "rationale": "Step 1: Mary spent $15 on Tuesday and $23 on Thursday, so the total amount she paid before her next shopping trip is $15 + $23 = $38. \n\nStep 2: Mary's credit limit is $100, so the amount she still needs to pay before her next shopping trip is $100 - $38 = $62. \n\nTherefore, Mary will need to pay $62 before her next shopping trip.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Ralph is going to practice playing tennis with a tennis ball machine that shoots out tennis balls for Ralph to hit. He loads up the machine with 175 tennis balls to start with. Out of the first 100 balls, he manages to hit 2/5 of them. Of the next 75 tennis balls, he manages to hit 1/3 of them. Out of all the tennis balls, how many did Ralph not hit?",
+    "rationale": "Step 1: Let's find out how many tennis balls Ralph hit out of the first 100.  \nRalph hit 2/5 * 100 = 40 tennis balls out of the first 100.\n\nStep 2: Now let's find out how many tennis balls Ralph hit out of the next 75.  \nRalph hit 1/3 * 75 = 25 tennis balls out of the next 75.\n\nStep 3: Now let's calculate the total number of tennis balls Ralph hit.  \nTotal tennis balls hit = 40 (from the first 100) + 25 (from the next 75) = 65 tennis balls.\n\nStep 4: Finally, let's find out how many tennis balls Ralph did not hit.  \nTotal tennis balls = 100 (first set) + 75 (second set) = 175 tennis balls  \nTennis balls not hit = 175 (total) - 65 (hit) = 110 tennis balls.\n\nTherefore, Ralph did not hit 110 tennis balls out of the total 175 tennis balls.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Jack is stranded on a desert island. He wants some salt to season his fish. He collects 2 liters of seawater in an old bucket. If the water is 20% salt, how many ml of salt will Jack get when all the water evaporates?",
+    "rationale": "Step 1: Calculate the amount of salt in 2 liters of seawater.\nGiven that the water is 20% salt, it means that in 2 liters of seawater, 20% is salt. \n\nStep 2: Calculate the volume of salt in 2 liters of seawater.\nSince 20% of 2 liters is salt, we can calculate the volume of salt as follows:\nVolume of salt = 20% of 2 liters = 0.2 * 2 liters = 0.4 liters\n\nStep 3: Convert the volume of salt from liters to milliliters.\nSince 1 liter is equal to 1000 milliliters, we can convert the volume of salt from liters to milliliters as follows:\nVolume of salt = 0.4 liters * 1000 ml/liter = 400 ml\n\nTherefore, Jack will get 400 ml of salt when all the water evaporates from the 2 liters of seawater.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Brennan was researching his school project and had to download files from the internet to his computer to use for reference. After downloading 800 files, he deleted 70% of them because they were not helpful. He downloaded 400 more files but again realized that 3/5 of them were irrelevant. How many valuable files was he left with after deleting the unrelated files he downloaded in the second round?",
+    "rationale": "Step 1: Calculate the number of files Brennan deleted after the first download.\nBrennan deleted 70% of the 800 files he initially downloaded.\n70% of 800 = 0.70 * 800 = 560 files deleted.\n\nStep 2: Calculate how many files Brennan had left after deleting the irrelevant files from the first download.\n800 - 560 = 240 files left.\n\nStep 3: Calculate the number of files Brennan deleted after the second download.\nBrennan deleted 3/5 of the 400 files he downloaded in the second round.\n3/5 of 400 = (3/5) * 400 = 240 files deleted.\n\nStep 4: Calculate how many files Brennan had left after deleting the irrelevant files from the second download.\n400 - 240 = 160 files left.\n\nTherefore, Brennan was left with 160 valuable files after deleting the irrelevant files he downloaded in the second round.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "There are 5 houses on a street, and each of the first four houses has 3 gnomes in the garden. If there are a total of 20 gnomes on the street, how many gnomes does the fifth house have?",
+    "rationale": "Step 1: First, let's find out how many gnomes are in the first four houses combined. Each of the first four houses has 3 gnomes, so 3 gnomes/house * 4 houses = 12 gnomes in total.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Mrs. Snyder used to spend 40% of her monthly income on rent and utilities. Her salary was recently increased by $600 so now her rent and utilities only amount to 25% of her monthly income. How much was her previous monthly income?",
+    "rationale": "Step 1: Let's denote Mrs. Snyder's previous monthly income as x. \n\nStep 2: Before the salary increase, she used to spend 40% of her income on rent and utilities. This means she spent 0.4x on rent and utilities.\n\nStep 3: After the salary increase, her rent and utilities now only amount to 25% of her monthly income, which is 0.25x.\n\nStep 4: We know that her salary was increased by $600, so her new monthly income is x + $600.\n\nStep 5: Since her rent and utilities now amount to 25% of her new monthly income, we can write the equation: 0.25(x + $600) = 0.4x.\n\nStep 6: Let's solve for x using the equation from step 5. \n\n0.25(x + $600) = 0.4x\n0.25x + $150 = 0.4x\n$150 = 0.15x\nx = $150 / 0.15\nx = $1000\n\nTherefore, Mrs. Snyder's previous monthly income was $1000.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Ann, Bill, Cate, and Dale each buy personal pan pizzas cut into 4 pieces. If Bill and Dale eat 50% of their pizzas and Ann and Cate eat 75% of the pizzas, how many pizza pieces are left uneaten?",
+    "rationale": "Step 1: Let's first find out how many pieces are in each personal pan pizza. Since each pizza is cut into 4 pieces and each person buys a personal pan pizza, each person has 4 pieces.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Noah is a painter. He paints pictures and sells them at the park. He charges $60 for a large painting and $30 for a small painting. Last month he sold eight large paintings and four small paintings. If he sold twice as much this month, how much is his sales for this month?",
+    "rationale": "Step 1: Calculate the total sales from last month.\n- Total sales from large paintings: $60 x 8 = $480\n- Total sales from small paintings: $30 x 4 = $120\n- Total sales from last month: $480 + $120 = $600\n\nStep 2: Calculate how much he would have sold this month if he sold twice as much as last month.\n- Total sales this month: 2 x $600 = $1200\n\nTherefore, his sales for this month would be $1200.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "A car is driving through a tunnel with many turns. After a while, the car must travel through a ring that requires a total of 4 right-hand turns. After the 1st turn, it travels 5 meters. After the 2nd turn, it travels 8 meters. After the 3rd turn, it travels a little further and at the 4th turn, it immediately exits the tunnel. If the car has driven a total of 23 meters around the ring, how far did it have to travel after the 3rd turn?",
+    "rationale": "Step 1: Let's denote the distance the car had to travel after the 3rd turn as x meters.\n\nStep 2: The total distance the car traveled around the ring can be calculated by adding the distances traveled after each turn:\n5 meters (1st turn) + 8 meters (2nd turn) + x meters (3rd turn) = 23 meters\n\nStep 3: Now, we can write the equation:\n5 + 8 + x = 23\n\nStep 4: Simplify the equation:\n13 + x = 23\n\nStep 5: Solve for x:\nx = 23 - 13\nx = 10\n\nTherefore, the car had to travel 10 meters after the 3rd turn.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "To make pizza, together with other ingredients, Kimber needs 10 cups of water, 16 cups of flour, and 1/2 times as many teaspoons of salt as the number of cups of flour. Calculate the combined total number of cups of water, flour, and teaspoons of salt that she needs to make the pizza.",
+    "rationale": "Step 1: We know Kimber needs 10 cups of water and 16 cups of flour to make the pizza. Let's calculate the total so far. \n\n10 cups of water + 16 cups of flour = 10 + 16 = 26 cups\n\nSo far, Kimber needs a total of 26 cups of water and flour.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Mr. Sam shared a certain amount of money between his two sons, Ken and Tony. If Ken got $1750, and Tony got twice as much as Ken, how much was the money shared?",
+    "rationale": "Step 1: Since Ken got $1750, we know Tony got twice as much. Let's calculate Tony's share first.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Mr. Sanchez found out that 40% of his Grade 5  students got a final grade below B. How many of his students got a final grade of B and above if he has 60 students in Grade 5?",
+    "rationale": "Step 1: Calculate the number of students who got a final grade below B.\nTo find this, we need to calculate 40% of the total number of students.\n40% of 60 students = 0.40 * 60 = 24 students\n\nStep 2: Calculate the number of students who got a final grade of B and above.\nSince Mr. Sanchez has a total of 60 students, and 24 students got a final grade below B, the number of students who got a final grade of B and above would be:\nTotal students - Students below B = Students with B and above\n60 - 24 = 36 students\n\nTherefore, 36 students got a final grade of B and above in Mr. Sanchez's Grade 5 class.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Lisa, Jack, and Tommy earned $60 from washing cars all week. However, half of the $60 was earned by Lisa. Tommy earned half of what Lisa earned. How much more money did Lisa earn than Tommy?",
+    "rationale": "Step 1: Since half of the $60 was earned by Lisa, we can calculate how much she earned by dividing $60 by 2.\nLisa earned $60 / 2 = $30.\n\nStep 2: Tommy earned half of what Lisa earned, so we can calculate how much Tommy earned by dividing Lisa's earnings by 2.\nTommy earned $30 / 2 = $15.\n\nStep 3: To find out how much more money Lisa earned than Tommy, we subtract Tommy's earnings from Lisa's earnings.\nLisa earned $30 - $15 = $15 more than Tommy. \n\nTherefore, Lisa earned $15 more than Tommy.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Five friends eat at a fast-food chain and order the following: 5 pieces of hamburger that cost $3 each; 4 sets of French fries that cost $1.20; 5 cups of soda that cost $0.5 each; and 1 platter of spaghetti that cost $2.7. How much will each of them pay if they will split the bill equally?",
+    "rationale": "Step 1: Calculate the total cost of the hamburgers.\n5 hamburgers * $3 = $15\n\nStep 2: Calculate the total cost of the French fries.\n4 sets * $1.20 = $4.80\n\nStep 3: Calculate the total cost of the sodas.\n5 sodas * $0.5 = $2.50\n\nStep 4: Calculate the total cost of the spaghetti.\n1 spaghetti * $2.7 = $2.7\n\nStep 5: Add the costs of all items to find the total bill.\n$15 + $4.80 + $2.50 + $2.70 = $25\n\nStep 6: Divide the total bill by the number of friends (5) to find out how much each friend needs to pay.\n$25 / 5 = $5\n\nTherefore, each friend needs to pay $5 if they split the bill equally.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Artemis is making tea for a party. She knows her mom drinks an 8-ounce cup of tea and uses one ounce of tea. She will use this same ratio for the party. The party has 12 people there and each of them wants a 6-ounce cup of tea. How many ounces of tea does she need?",
+    "rationale": "Step 1: Calculate the total amount of tea needed for one person at the party.\nArtemis's mom uses 1 ounce of tea for an 8-ounce cup of tea.\nSo, for a 6-ounce cup of tea, one person needs (1/8) * 6 = 0.75 ounces of tea. \n\nStep 2: Calculate the total amount of tea needed for all 12 people at the party.\nSince there are 12 people at the party, the total amount of tea needed for all of them is 12 * 0.75 = 9 ounces of tea.\n\nTherefore, Artemis needs 9 ounces of tea for the party.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Anna goes trick-or-treating in a subdivision where she gets 14 pieces of candy per house. Her brother Billy goes trick-or-tricking in a neighboring subdivision where he gets 11 pieces of candy per house. If the first subdivision has 60 houses and the second subdivision has 75 houses, how many more pieces of candy does Anna get?",
+    "rationale": "Step 1: Calculate the total number of pieces of candy Anna gets in the first subdivision.\nAnna gets 14 pieces of candy per house and there are 60 houses in the first subdivision.\nTotal candy Anna gets = 14 pieces/house * 60 houses = 840 pieces of candy.",
+    "success": true,
+    "error": null
+  }
+]

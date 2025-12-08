@@ -1,0 +1,92 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.211817138671875,
+    "val_loss": Infinity,
+    "current_difficulty": 155.69292099967652
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 261.5816427806027
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 340.58673825944544
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 395.52823510547597
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 433.648638201507
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 460.08853999545414
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 478.3367565215439
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 694.3671875
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 694.3671875
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 694.3671875
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 694.3671875
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 694.3671875
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 694.3671875
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 694.3671875
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.0,
+    "val_loss": Infinity,
+    "current_difficulty": 694.3671875
+  }
+]

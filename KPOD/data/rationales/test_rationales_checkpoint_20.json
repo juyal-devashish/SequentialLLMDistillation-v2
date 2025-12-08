@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?",
+    "rationale": "Step 1: Calculate how many clips Natalia sold in May.\nIn April, Natalia sold 48 clips.\nIn May, she sold half as many clips as in April, which is 48 / 2 = 24 clips.\n\nStep 2: Calculate the total number of clips Natalia sold in April and May.\nTotal clips sold = 48 (April) + 24 (May) = 72 clips.\n\nTherefore, Natalia sold a total of 72 clips in April and May.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?",
+    "rationale": "Step 1: First, we need to convert 50 minutes to hours. Since there are 60 minutes in an hour, we can divide 50 minutes by 60 to get the equivalent hours.  \n50 minutes \u00f7 60 = 0.83 hours  \nSo, Weng did 0.83 hours of babysitting.  \n\nStep 2: Next, we can calculate how much Weng earned by multiplying the hours she worked by her hourly rate.  \nEarnings = 0.83 hours * $12/hour  \nEarnings = $9.96  \n\nTherefore, Weng earned $9.96 for babysitting for 50 minutes yesterday.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?",
+    "rationale": "Step 1: Calculate how much money Betty has saved so far.\n- The cost of the wallet is $100.\n- Betty has half of the money she needs, which is $100 / 2 = $50.\n\nStep 2: Calculate how much money Betty's grandparents gave her.\n- Betty's parents gave her $15.\n- Betty's grandparents gave her twice as much as her parents, so that's 2 * $15 = $30.\n\nStep 3: Add up all the money Betty has saved.\n- Betty has $50 + $15 + $30 = $95 saved.\n\nStep 4: Calculate how much more money Betty needs to buy the wallet.\n- The cost of the wallet is $100.\n- Betty has saved $95, so she still needs $100 - $95 = $5 more to buy the wallet.\n\nTherefore, Betty needs $5 more to buy the wallet.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?",
+    "rationale": "1. Julie read 12 pages yesterday.\n2. Today, she read twice as many pages as yesterday, which is 2 * 12 = 24 pages.\n3. So far, Julie has read a total of 12 + 24 = 36 pages.\n4. She has 120 - 36 = 84 pages remaining to read.\n5. Tomorrow, she wants to read half of the remaining pages, which is 84 / 2 = 42 pages. \n6. Therefore, Julie should read 42 pages tomorrow.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?",
+    "rationale": "Step 1: Calculate how many letters James writes in a week.\nJames writes 2 letters to 2 different friends twice a week, so he writes 2 * 2 = 4 letters per week.\n\nStep 2: Calculate how many pages James writes in a week.\nSince each letter is 3 pages long, James writes 4 * 3 = 12 pages per week.\n\nStep 3: Calculate how many pages James writes in a year.\nThere are 52 weeks in a year, so James writes 12 * 52 = 624 pages in a year.\n\nTherefore, James writes 624 pages in a year.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and there are 80% more of those in purple. There are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?",
+    "rationale": "Step 1: Let's start by calculating how many purple flowers Mark has in his garden. We know that there are 80% more purple flowers than yellow flowers. Since Mark has 10 yellow flowers, we can calculate 80% of 10 to find out how many more purple flowers there are. \n\n80% of 10 = 0.8 * 10 = 8\n\nSo, Mark has 10 yellow flowers and 8 more purple flowers, totaling:\n\n10 yellow flowers + 8 purple flowers = 18 flowers\n\nMark has 18 purple flowers.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Albert is wondering how much pizza he can eat in one day. He buys 2 large pizzas and 2 small pizzas. A large pizza has 16 slices and a small pizza has 8 slices. If he eats it all, how many pieces does he eat that day?",
+    "rationale": "Step 1: Calculate the total number of slices in the large pizzas.\n2 large pizzas * 16 slices per large pizza = 32 slices from the large pizzas. \n\nStep 2: Calculate the total number of slices in the small pizzas.\n2 small pizzas * 8 slices per small pizza = 16 slices from the small pizzas.\n\nStep 3: Add the slices from the large and small pizzas to find the total number of slices Albert eats.\n32 slices from large pizzas + 16 slices from small pizzas = 48 total slices eaten.\n\nTherefore, Albert eats 48 slices of pizza that day.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he added enough gummy worms to double the weight once again.  What was the final weight of the box of goodies, in pounds?",
+    "rationale": "Step 1: Ken placed the box on a scale and added enough jelly beans to bring the weight to 2 pounds. Let's denote the weight of the jelly beans as x pounds. So, the weight of the box with the jelly beans is 2 pounds.\n\nStep 2: Ken added enough brownies to cause the weight to triple. This means the weight of the brownies is 3 times the weight of the box with the jelly beans. Therefore, the weight of the brownies is 3 * 2 = 6 pounds.\n\nStep 3: Ken added another 2 pounds of jelly beans to the box. So, the total weight of the jelly beans in the box is x + 2 pounds.\n\nStep 4: Finally, Ken added enough gummy worms to double the weight once again. This means the weight of the gummy worms is 2 times the total weight of the box with the jelly beans, brownies, and additional jelly beans. Therefore, the weight of the gummy worms is 2 * (2 + x + 6 + 2) = 2 * (x + 10) = 2x + 20 pounds.\n\nStep 5: The final weight of the box of goodies is the sum of the weights of the jelly beans, brownies, and gummy worms. Thus, the final weight is x + 6 + x + 10 + 20 = 2x + 36 pounds.\n\nTherefore, the final weight of the box of goodies is 2x + 36 pounds.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Alexis is applying for a new job and bought a new set of business clothes to wear to the interview. She went to a department store with a budget of $200 and spent $30 on a button-up shirt, $46 on suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. She has $16 left from her budget. How much did Alexis pay for the shoes?",
+    "rationale": "Step 1: Calculate the total amount spent on the shirt, pants, coat, socks, and belt.\n$30 (shirt) + $46 (pants) + $38 (coat) + $11 (socks) + $18 (belt) = $143\n\nStep 2: Calculate the remaining budget after purchasing these items.\n$200 (budget) - $143 (total spent) = $57\n\nStep 3: Subtract the remaining budget from the amount Alexis has left.\n$57 (remaining budget) - $16 (leftover) = $41\n\nTherefore, Alexis paid $41 for the shoes.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Tina makes $18.00 an hour.  If she works more than 8 hours per shift, she is eligible for overtime, which is paid by your hourly wage + 1/2 your hourly wage.  If she works 10 hours every day for 5 days, how much money does she make?",
+    "rationale": "Step 1: Calculate Tina's regular daily earnings.\nTina works 8 hours at her regular rate of $18 per hour.\nRegular daily earnings = $18/hour * 8 hours = $144\n\nStep 2: Calculate Tina's overtime earnings for each day.\nFor each hour of overtime, Tina is paid her hourly wage plus half of her hourly wage.\nOvertime rate = $18/hour + 0.5 * $18/hour = $18/hour + $9/hour = $27/hour\n\nStep 3: Calculate Tina's total earnings for a 10-hour shift.\nFor the first 8 hours, Tina earns her regular rate: $18/hour * 8 hours = $144\nFor the remaining 2 hours of overtime, Tina earns the overtime rate: $27/hour * 2 hours = $54\n\nStep 4: Calculate Tina's total earnings for 5 days of work.\nTotal daily earnings = Regular daily earnings + Overtime earnings\nTotal daily earnings = $144 + $54 = $198\nTotal earnings for 5 days = 5 days * $198/day = $990\n\nTherefore, Tina makes $990 in total for working 10 hours every day for 5 days.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "A deep-sea monster rises from the waters once every hundred years to feast on a ship and sate its hunger. Over three hundred years, it has consumed 847 people. Ships have been built larger over time, so each new ship has twice as many people as the last ship. How many people were on the ship the monster ate in the first hundred years?",
+    "rationale": "Step 1: Let's denote the number of people on the first ship as x. Since each new ship has twice as many people as the last ship, the number of people on the second ship would be 2x, the third ship would have 4x, and so on. \n\nStep 2: The total number of people eaten by the monster over the three hundred years is 847. So, we can set up an equation based on the sum of the geometric progression:\n\nx + 2x + 4x + ... = 847\n\nStep 3: To find the sum of the geometric progression, we use the formula for the sum of the first n terms of a geometric progression:\n\nS_n = a(1 - r^n) / (1 - r)\n\nwhere:\nS_n is the sum of the first n terms,\na is the first term,\nr is the common ratio,\nn is the number of terms.\n\nStep 4: In our case, the first term a is x, the common ratio r is 2, and the sum S_n is 847. We need to determine the number of terms n.\n\nStep 5: Let's solve for n using the formula:\n\n847 = x(1 - 2^n) / (1 - 2)\n\nStep 6: Simplify the equation:\n\n847 = x(1 - 2^n) / -1\n\n-847 = x(1 - 2^n)\n\nStep 7: Since x is the number of people on the first ship, it must be a whole number. We can start by testing some values for x to find the correct one that satisfies the equation. Let's start with x = 1.\n\n-847 = 1(1 - 2^n)\n-847 = 1 - 2^n\n-848 = -2^n\n2^n = 848\n\nStep 8: We can see that x = 1 does not satisfy the equation. Let's try x = 2.\n\n-847 = 2(1 - 2^n)\n-847 = 2 - 2^n\n-849 = -2^n\n2^n = 849\n\nStep 9: It seems x = 2 is not the correct value either. Let's continue testing different values for x until we find the one that satisfies the equation.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?",
+    "rationale": "Step 1: Calculate Tobias' total savings from his allowance over three months.\nTotal allowance = $5/month * 3 months = $15\n\nStep 2: Calculate Tobias' earnings from mowing lawns.\nEarnings from mowing 4 lawns = $15/lawn * 4 lawns = $60\n\nStep 3: Calculate Tobias' total savings and earnings before buying the shoes.\nTotal savings and earnings = Total allowance + Earnings from mowing lawns = $15 + $60 = $75\n\nStep 4: Subtract the cost of the shoes from Tobias' total savings and earnings to find out how much he had left.\nTotal savings and earnings - Cost of shoes = $75 - $95 = -$20\n\nStep 5: Add the $15 change Tobias has after buying the shoes to the deficit to find out how much he had left after buying the shoes.\nAmount left after buying shoes = -$20 + $15 = -$5\n\nStep 6: Calculate the number of driveways Tobias shoveled to earn money to cover the remaining amount.\nEarnings from shoveling driveways = Amount left after buying shoes = -$5\nEarnings per driveway = $7/driveway\n\nNumber of driveways shoveled = Earnings from shoveling driveways / Earnings per driveway = -$5 / $7 \u2248 -0.714\nSince Tobias cannot shovel a fraction of a driveway, he did not shovel any driveways to earn money to cover the remaining amount.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Randy has 60 mango trees on his farm. He also has 5 less than half as many coconut trees as mango trees. How many trees does Randy have in all on his farm?",
+    "rationale": "Step 1: First, we need to find half of the number of mango trees.  \nHalf of 60 mango trees is 60 / 2 = 30 trees.  \n\nStep 2: Next, we need to find 5 less than half of the mango trees.  \n5 less than 30 trees is 30 - 5 = 25 coconut trees.  \n\nStep 3: Finally, we can calculate the total number of trees on Randy's farm.  \nTotal trees = Mango trees + Coconut trees  \nTotal trees = 60 mango trees + 25 coconut trees  \nTotal trees = 85 trees  \n\nTherefore, Randy has a total of 85 trees on his farm.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Jasper will serve charcuterie at his dinner party. He buys 2 pounds of cheddar cheese for $10, a pound of cream cheese that cost half the price of the cheddar cheese, and a pack of cold cuts that cost twice the price of the cheddar cheese. How much does he spend on the ingredients?",
+    "rationale": "Step 1: Determine the cost of the cream cheese.\nSince the cream cheese cost half the price of the cheddar cheese, it is $10 / 2 = $5.\n\nStep 2: Determine the cost of the pack of cold cuts.\nThe pack of cold cuts cost twice the price of the cheddar cheese, so it is 2 * $10 = $20.\n\nStep 3: Calculate the total cost of the ingredients.\nJasper spent $10 on cheddar cheese, $5 on cream cheese, and $20 on cold cuts.\nTherefore, the total amount spent on the ingredients is $10 + $5 + $20 = $35. \n\nJasper spends $35 on the ingredients for the charcuterie.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Joy can read 8 pages of a book in 20 minutes. How many hours will it take her to read 120 pages?",
+    "rationale": "Step 1: First, we need to find out how many pages Joy can read in 1 minute.\nTo do this, we divide the number of pages she can read in 20 minutes by 20.\n8 pages / 20 minutes = 0.4 pages per minute.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "James creates a media empire.  He creates a movie for $2000.  Each DVD cost $6 to make.  He sells it for 2.5 times that much.  He sells 500 movies a day for 5 days a week.  How much profit does he make in 20 weeks?",
+    "rationale": "Step 1: Calculate the total cost of creating the movie.\nJames creates a movie for $2000.\n\nTotal cost = $2000\n\nStep 2: Calculate the cost of producing one DVD.\nEach DVD costs $6 to make.\n\nDVD cost = $6\n\nStep 3: Calculate the selling price of one DVD.\nHe sells each DVD for 2.5 times the production cost.\n\nSelling price = 2.5 * $6 = $15\n\nStep 4: Calculate the profit per DVD.\nProfit per DVD = Selling price - Production cost\nProfit per DVD = $15 - $6\nProfit per DVD = $9\n\nStep 5: Calculate the total profit from selling DVDs in one day.\nJames sells 500 DVDs in a day.\n\nTotal profit per day = Profit per DVD * Number of DVDs sold\nTotal profit per day = $9 * 500\nTotal profit per day = $4500\n\nStep 6: Calculate the total profit per week.\nJames sells DVDs for 5 days a week.\n\nTotal profit per week = Total profit per day * Number of days in a week\nTotal profit per week = $4500 * 5\nTotal profit per week = $22500\n\nStep 7: Calculate the total profit per 20 weeks.\nJames sells DVDs for 20 weeks.\n\nTotal profit for 20 weeks = Total profit per week * Number of weeks\nTotal profit for 20 weeks = $22500 * 20\nTotal profit for 20 weeks = $450000\n\nStep 8: Calculate the total profit including the movie creation cost.\nTotal profit including movie creation cost = Total profit for 20 weeks - Movie creation cost\nTotal profit including movie creation cost = $450000 - $2000\nTotal profit including movie creation cost = $448000\n\nTherefore, James makes a profit of $448,000 in 20 weeks.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "The profit from a business transaction is shared among 2 business partners, Mike and Johnson in the ratio 2:5 respectively. If Johnson got $2500, how much will Mike have after spending some of his share on a shirt that costs $200?",
+    "rationale": "Step 1: Calculate the total ratio parts.\nTotal parts = 2 + 5 = 7.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "In a truck, there are 26 pink hard hats, 15 green hard hats, and 24 yellow hard hats.  If Carl takes away 4 pink hard hats, and John takes away 6 pink hard hats and twice as many green hard hats as the number of pink hard hats that he removed, then calculate the total number of hard hats that remained in the truck.",
+    "rationale": "Step 1: Initially, there are 26 pink hard hats, 15 green hard hats, and 24 yellow hard hats in the truck.\nStep 2: Carl takes away 4 pink hard hats, so the number of pink hard hats remaining is 26 - 4 = 22.\nStep 3: John takes away 6 pink hard hats. So, the number of pink hard hats remaining is 22 - 6 = 16.\nStep 4: John also takes twice as many green hard hats as the number of pink hard hats he removed. Therefore, he takes 2 * 6 = 12 green hard hats.\nStep 5: The number of green hard hats remaining is 15 - 12 = 3.\nStep 6: The total number of hard hats remaining in the truck is 16 (pink) + 3 (green) + 24 (yellow) = 43 hard hats.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "It takes Roque two hours to walk to work and one hour to ride his bike to work. Roque walks to and from work three times a week and rides his bike to and from work twice a week. How many hours in total does he take to get to and from work a week with walking and biking?",
+    "rationale": "Step 1: Calculate the total time Roque spends walking to and from work in a week.\nWalking time per trip = 2 hours\nNumber of walking trips per week = 3 trips\nTotal walking time per week = 2 hours/trip * 3 trips = 6 hours\n\nStep 2: Calculate the total time Roque spends riding his bike to and from work in a week.\nBiking time per trip = 1 hour\nNumber of biking trips per week = 2 trips\nTotal biking time per week = 1 hour/trip * 2 trips = 2 hours\n\nStep 3: Add the total walking time and total biking time to find the total time Roque takes to get to and from work in a week.\nTotal time per week = Total walking time + Total biking time\nTotal time per week = 6 hours + 2 hours = 8 hours\n\nTherefore, Roque takes a total of 8 hours to get to and from work in a week with walking and biking.",
+    "success": true,
+    "error": null
+  },
+  {
+    "question": "Tim rides his bike back and forth to work for each of his 5 workdays.  His work is 20 miles away.  He also goes for a weekend bike ride of 200 miles.    If he can bike at 25 mph how much time does he spend biking a week?",
+    "rationale": "Step 1: Calculate the total distance Tim bikes during the week for commuting to work. Since Tim rides to work for 5 days and the work is 20 miles away, he bikes 5 days * 20 miles/day = 100 miles during the workweek. \n\nStep 2: Add the distance Tim bikes during the weekend bike ride. Tim goes for a weekend bike ride of 200 miles.\n\nStep 3: Add the distances together to find the total distance Tim bikes in a week. Total distance = 100 miles (workweek) + 200 miles (weekend) = 300 miles.\n\nStep 4: Calculate the time Tim spends biking in a week. Time = Distance / Speed = 300 miles / 25 mph = 12 hours.\n\nTherefore, Tim spends 12 hours biking in a week.",
+    "success": true,
+    "error": null
+  }
+]
