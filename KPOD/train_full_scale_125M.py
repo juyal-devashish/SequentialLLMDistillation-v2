@@ -30,7 +30,7 @@ def main():
     print("  KPOD FULL-SCALE TRAINING")
     print("="*80)
     print("  Dataset: GSM8K (7,473 training samples)")
-    print("  Model: google/flan-t5-large")
+    print("  Model: EleutherAI/gpt-neo-125m")
     print("  Epochs: 100")
     print("  Expected Accuracy: 22-25%")
     print("  Estimated Time: 20-24 hours")
@@ -40,32 +40,32 @@ def main():
     config = get_config()
 
     # Use Qwen 4B as the student
-    config.model.student_model_name = "Qwen/Qwen2.5-4B"   # or "Qwen/Qwen1.5-4B"
+    config.model.student_model_name = "EleutherAI/gpt-neo-125m",   # or "Qwen/Qwen1.5-4B"
 
     # Dataset
     config.data.dataset_name = "gsm8k"
 
-    # Training hyperparameters for 4B model
-    config.training.batch_size = 1          # Qwen-4B is much larger than Flan-T5
-    config.training.gradient_accumulation = 16   # Effective batch size = 8
-    config.training.lr_flan = 1e-5          # Much lower LR for 4B stability
-    config.training.max_grad_norm = 0.8     # Slightly lower for large LMs
-    config.training.warmup_ratio = 0.05     # Large LMs need smaller warmup
-    config.training.weight_decay = 0.1      # Standard for transformer LMs
-    config.training.num_epochs = 100        # Good default
-    config.training.early_stopping_patience = 5  # custom field for early stopping
+    # Training hyperparameters for EleutherAI/gpt-neo-125M
+    config.training.batch_size = 8                  # small model → fits a large batch
+    config.training.gradient_accumulation = 4       # effective batch 32
+    config.training.lr_flan = 2e-4                 # MUCH higher LR for 125M
+    config.training.max_grad_norm = 1.0            # safe for small models
+    config.training.warmup_ratio = 0.1             # more warmup helps
+    config.training.weight_decay = 0.01            # smaller decay for small LMs
+    config.training.num_epochs = 100               # full run
+    config.training.early_stopping_patience = 5
 
-    # Mixed precision
-    config.training.fp16 = False
-    config.training.bf16 = True             # Qwen models perform best in BF16
+    # Precision (gpt-neo does NOT support bf16)
+    config.training.fp16 = True
+    config.training.bf16 = False
 
-    # Optional but recommended
+    # Scheduler + logging
     config.training.lr_scheduler = "cosine"
     config.training.logging_steps = 20
 
     
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    model_id = "qwen2.5-4b-full"
+    model_id = "EleutherAI-gpt-neo-125M-full"
     
     print(f"\n📍 Configuration:")
     print(f"   Device: {device}")
