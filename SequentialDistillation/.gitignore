@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.zip
+*.log
+*.sav
+*.pkl
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# VS Code specific
+.vscode/
+# Exclude all in .vscode except for settings, tasks, and launch json files
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Machine Learning / Deep Learning Artifacts
+# Checkpoints, saved models, and logs
+checkpoints/
+*.ckpt
+*.pt
+logs/
+runs/
+**/wandb/
+tf_log/
+output/
+results/
+temp/
+tmp/
+distil_checkpoints/ # Specific to your project structure
+distil_logs/        # Specific to your project structure
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Data files (often too large for Git)
+*.csv
+*.tsv
+*.data
+*.h5
+*.hdf5
+*.bin
+*.tar.gz
+*.zip
+!data/
+# Note: You might want to commit a small placeholder data file or an empty directory for structure.

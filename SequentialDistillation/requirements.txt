@@ -1,0 +1,12 @@
+torch
+transformers
+datasets
+trl
+accelerate
+sentencepiece
+protobuf
+tqdm
+wandb
+safetensors
+bitsandbytes
+packaging
