@@ -28,27 +28,6 @@ Teacher (7B) ─┬→ Intermediate (1.5B) → Student (0.5B)
               └────────────────────────→ (co-training)
 ```
 
-## Installation
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/KPOD.git
-cd KPOD
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Requirements
-- Python 3.8+
-- PyTorch 2.0+
-- transformers
-- datasets
-- trl
-- accelerate
-
-## Quick Start
-
 ### Sequential Distillation
 
 ```python
@@ -190,3 +169,4 @@ Direct distillation struggles with large capacity gaps (14× in our case) becaus
 - Built on top of [DistillKit](https://github.com/arcee-ai/DistillKit) by Arcee AI
 - Uses models from [Qwen2](https://huggingface.co/Qwen) and [Arcee-Spark](https://huggingface.co/arcee-ai/Arcee-Spark)
 - Dataset: [FineTome-100k](https://huggingface.co/datasets/mlabonne/FineTome-100k) by mlabonne
+
